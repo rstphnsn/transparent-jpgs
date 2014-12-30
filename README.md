@@ -1,6 +1,6 @@
 # TRANSPARENT JPGS #
 
-Yeah. Not really. But we can use Canvas elements and PNG masks to turn a JPG into a transparent image.
+Using Canvas, PNG masks, and JavaScript to create transparent JPGs.
 
 ## Contents ##
 
