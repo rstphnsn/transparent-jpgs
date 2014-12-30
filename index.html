@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en-us" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>Transparent JPG Demo</title>
+
+    <style>
+    figure,
+    .transparent-jpg {
+        height: 306px;
+        width: 306px;
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <figure>
+        <canvas class="transparent-jpg" style="background:url('images/background-1.jpg');" width="612" height="612" data-rgb="images/AM1.jpg" data-mask="images/AM1-mask.png">
+            <!--[if IE 8]><img src="images/AM1.png"><![endif]-->
+        </canvas>
+    </figure>
+
+    <figure>
+        <canvas class="transparent-jpg" style="background:url('images/background-2.jpg');" width="612" height="612" data-rgb="images/AM95.jpg" data-mask="images/AM95-mask.png">
+            <!--[if IE 8]><img src="images/AM1.png"><![endif]-->
+        </canvas>
+    </figure>
+
+<script src="transparent-jpgs.js"></script>
+
+</body>
+</html>
