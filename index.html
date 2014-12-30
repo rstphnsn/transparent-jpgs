@@ -5,24 +5,25 @@
     <title>Transparent JPG Demo</title>
 
     <style>
-    .transparent-jpg-holder,
+    figure,
     .transparent-jpg {
         height: 306px;
         width: 306px;
     }
     </style>
+
 </head>
 
 <body>
 
-    <figure class="transparent-jpg-holder">
-        <canvas class="transparent-jpg" style="background:url('images/background-1.jpg');" width="612" height="612" data-rgb="images/AM1.jpg" data-mask="images/AM1-mask.png" id="canvas1">
+    <figure>
+        <canvas class="transparent-jpg" style="background:url('images/background-1.jpg');" width="612" height="612" data-rgb="images/AM1.jpg" data-mask="images/AM1-mask.png">
             <!--[if IE 8]><img src="images/AM1.png"><![endif]-->
         </canvas>
     </figure>
 
-    <figure class="transparent-jpg-holder">
-        <canvas class="transparent-jpg" style="background:url('images/background-2.jpg');" width="612" height="612" data-rgb="images/AM95.jpg" data-mask="images/AM95-mask.png" id="canvas2">
+    <figure>
+        <canvas class="transparent-jpg" style="background:url('images/background-2.jpg');" width="612" height="612" data-rgb="images/AM95.jpg" data-mask="images/AM95-mask.png">
             <!--[if IE 8]><img src="images/AM1.png"><![endif]-->
         </canvas>
     </figure>
